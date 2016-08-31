@@ -1,0 +1,31 @@
+{
+  "name": "inhabit-module-test",
+  "version": "0.1.0",
+  "description": "TestDescription",
+  "keywords": [
+    "inhabit"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TestAuthor",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "browserify-incremental": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "inhabit-module-base": "^1.3.0",
+    "require-dir": "^0.3.0",
+    "sassify": "^2.0.0",
+    "stringify": "^5.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "sassify": {
+    "auto-inject": true
+  }
+}

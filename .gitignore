@@ -1,0 +1,7 @@
+*.log
+*.err
+node_modules
+build
+.idea
+browserify-cache
+TEST-Results.xml
